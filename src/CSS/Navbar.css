@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgb(24, 18, 18);
+    width: 100%;
+}
+
+.navbar-top{
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: space-around; */
+    height: 12vh;
+    align-items: center;
+    border: 1px solid red;
+
+}
+#div-1{
+   height: 9vh;
+   margin-left: 10px;
+   border: 1px solid white;
+   padding: 3px;
+}
+
+#img-1{
+    /* width:100%; */
+    height: 7vh;
+  
+}
+
+#div-2{
+    width: 16%;
+    border: 1px solid white;
+    height: 9vh;
+    margin-left: 8px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+
+}
+#img-2{
+    margin-top: 16px;
+}
+
+#div-3{
+    width: 35%;
+    /* border: 1px solid red; */
+    height: 9vh;
+    margin-left: 8px;
+    color: white;
+    display: flex;
+    border-radius: 5px;
+    
+}
+#dropdown-1{
+   height: 100%;
+   width: 11%;
+   /* border-radius: 5px; */
+   border: none;
+   outline: none;
+
+   /* border: 1px solid white; */
+}
+#input-div{
+    height: 100%;
+    width: 78%;
+    border: none;
+    outline: none;
+    /* border: 1px solid white; */
+
+}
+#search{
+   height: 100%;
+   width: 11%;
+   border-radius: 5px;
+
+}
+#search-btn{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(238, 180, 74);
+    border: none;
+    outline: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+
+}
+#select-1{
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color:rgb(202, 202, 202);
+}
+
+#select-1>option{
+    font-size: 28px;
+    padding-left: 20px;
+  
+}
+
+#input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+#learn{
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 29px;
+   
+}
+#h3{
+    margin-top: 20px;
+}
+#change_country{
+    margin-left: 25px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#div-4{
+    width: 4%;
+    border: 1px solid white;
+    height: 9vh;
+    margin-left: 8px;
+
+}
+
+#drop-icon{
+    color: white;
+}
+#india-img{
+    /* padding: 5px; */
+    margin-top: 28px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.dropdown-2{
+    height: 60vh;
+    width: 19vw;
+    margin-top: 25px;
+    background-color: rgb(235, 227, 227);
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+#div-4:hover .dropdown-2{
+    display: block;
+}
+.drop2-content{
+    margin-left: 15px;
+    margin-left: 10px;
+}
+.drop2-content ul{
+    list-style-type: none;
+}
+.drop2-content ul li{
+    margin: 20px;
+
+  
+
+}
+.drop2-content ul li input{
+ 
+    transform: scale(3);
+}
+
+span{
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+
+#div-5{
+    width: 12%;
+    border: 1px solid white;
+    height: 9vh;
+    margin-left: 8px;
+    color: white;
+
+}
+
+.drop3-content{
+    height: 55vh;
+    width: 28vw;
+    display: none;
+    position: absolute;
+    /* background-color: rgb(215, 215, 215); */
+    background-color: white;
+    margin-top: 55px;
+    margin-right: 55px;
+    z-index: 999;
+    color: black;
+  
+
+}
+#sigin-btn{
+    width: 45%;
+    margin: auto;
+    height: 4.5vh;
+    background-color: rgb(255, 191, 30);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 15px;
+
+}
+.list-container{
+    display: flex;
+    justify-content: space-around;
+}
+.list-1,.list-2{
+    height: 35vh;
+    width: 100%;
+    margin: 10px;
+    /* border: 2px solid red; */
+}
+.list-1{
+    border-right:2px solid gray;
+}
+#list-1_1{
+    list-style-type: none;
+}
+#list-1_1>li{
+    font-size: 20px;
+}
+.nav-opt2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#div-5:hover .drop3-content{
+    display: block;
+}
+
+
+#div-6{
+    width: 8%;
+    border: 1px solid white;
+    height: 9vh;
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+#div-7{
+    width: 8%;
+    border: 1px solid white;
+    height: 9vh;
+    margin-left: 8px;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+#cartIcon{
+
+font-size: 49px;
+}
+
+
+
+.navbar-bottom{
+    height: 6vh;
+    width: 100%;
+    border: 1px solid red;
+    margin-top: 2px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1;
+    background-color: rgb(161, 153, 44);
+}
+
+#homeImg{
+    width: 100%;
+    z-index: -1;
+    /* margin-bottom: -150px; */
+   
+    
+
+}
+#card-child{
+    background-color: blue;
+    z-index: 1;
+    width: 100%;
+    margin: 5px;
+    height: 45vh;
+}
