@@ -38,7 +38,7 @@ const Navbar = () => {
                     </div>
                     <div>
                         <p style={{fontSize:"22px"}}>Hello</p>
-                        <h2>select Your adderess</h2>
+                        <h2>select Your adderesses</h2>
                     </div>
                   
                 </div>
